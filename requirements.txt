@@ -6,3 +6,4 @@ scipy
 pywavelets
 pytest
 ffmpeg-python 
+python-multipart

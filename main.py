@@ -10,6 +10,8 @@ from tempfile import NamedTemporaryFile
 import shutil
 import tempfile
 import uuid
+import shutil
+
 
 # Path Inés
 OUTPUT_DIR = "/Users/isall/Downloads/ffmpeg_outputs_ex_2"
