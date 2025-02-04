@@ -11,6 +11,25 @@ import shutil
 import tempfile
 import uuid
 
+# Path Inés
+OUTPUT_DIR = "/Users/isall/Downloads/ffmpeg_outputs_ex_2"
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+    
+# Path Viktoria
+OUTPUT_DIR = "/Users/viktoriaolmedo/Downloads/ffmpeg_outputs"
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+    
+# Path Maria
+OUTPUT_DIR = "/Users/mariasanninomezquita/Downloads/ffmpeg_outputs"
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
+
+
+
+
+
 
 app = FastAPI()
 
