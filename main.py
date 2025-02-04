@@ -19,8 +19,6 @@ app = FastAPI()
 def read_root():
     return {"message": "Welcome to the FastAPI application!"}
             
-
-
         
 @app.get("/api/convert_yuv_to_rgb")
 def convert_rgb_to_yuv(Y: int, U: int, V: int):
